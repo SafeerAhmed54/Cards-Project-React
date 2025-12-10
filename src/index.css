@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  font-family: sans-serif;
+}
+
+.parent{
+  width: 100wh;
+  height: 100dvh;
+  padding: 64px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card{
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-div{
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  width: 45px;
+  height: 45px;
+}
+
+.saved-Button{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:flex-start;
+}
+
+.save{
+  background-color: white;
+  color: #b6b6b6;
+  border: 1px solid #b6b6b6;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.content{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content-place,
+.tags-div{
+  width: 100%;
+}
+
+.role{
+  font-size: 22px;
+}
+
+.post-time{
+  font-size: 10px;
+  color: #b6b6b6;
+}
+
+.tags-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.tags{
+  background-color: #ddd;
+  color: black;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.footer{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #b6b6b6;
+}
+
+.price-div,
+.apply-div{
+  width: 50%;
+  height: auto;
+}
+
+.price-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  
+}
+
+.apply-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.price{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.location{
+  color: #b6b6b6;
+  font-size: 10px;
+}
+
+.apply-button{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
